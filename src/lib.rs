@@ -1,4 +1,3 @@
-#[cfg(feature = "generic")]
 pub mod generic {
 
     use bytes::Bytes;
@@ -58,7 +57,7 @@ pub mod generic {
 
             let (parts, _) = response.into_parts();
 
-            let body = HttpBody::from_generic_client(recv_stream);
+            let body = HttpBody::quic_client_recv(recv_stream);
             let response = Response::from_parts(parts, body);
             Ok(response)
         }
