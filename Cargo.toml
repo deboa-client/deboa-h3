@@ -11,6 +11,9 @@ license = "MIT OR Apache-2.0"
 keywords = ["http", "networking", "client", "fetch", "rest-client"]
 rust-version = "1.85.0"
 
+[package.metadata.cargo-machete]
+ignored = ["deboa"]
+
 [features]
 default = []
 
