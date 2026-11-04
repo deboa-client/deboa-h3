@@ -24,4 +24,4 @@ h3 = { version = "0.0.8", default-features = false }
 h3-quinn = { version = "0.0.10", default-features = false }
 http = "1"
 http-body-util = "0.1"
-hyper-body-utils = { version = "0.1.18", features = ["h3"], default-features = false }
+hyper-body-utils = { version = "0.1", features = ["h3"], default-features = false }
