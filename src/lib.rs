@@ -64,7 +64,7 @@ pub mod generic {
     }
 }
 
-#[cfg(feature = "compio")]
+/* 
 pub mod compio {
     use bytes::Bytes;
     use compio_quic::{h3::OpenStreams, RecvStream};
@@ -129,3 +129,4 @@ pub mod compio {
         }
     }
 }
+*/
